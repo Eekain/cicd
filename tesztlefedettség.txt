@@ -1,0 +1,6 @@
+Jacoco képes soronként lementeni az eredményt, és ezt képes a SONAR megjeleníteni
+
+hozzáadtuk a pomhoz mint plugin, utána mvnw package:
+és ezután a \cicd\employees-2022-06-27\target\site\jacoco mappában az index.html egy lefedettségi megjelenítést mutat
+
+mavenben a unit tesztektől az integrációs teszteket tudjuk külön futtatni.

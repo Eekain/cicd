@@ -1,1 +1,10 @@
 letöltöd a zip állományt, és PATH-ba teszed
+
+VAGY
+
+kiadod a pom.xml-t tartalmazó mappában a mvn wrapper:wrapper parancsot.
+
+
+Jackson az a java objektumokból json-t generál.
+
+Amelyik előrébb van a classpath-on, a maven azt tölti be előbb

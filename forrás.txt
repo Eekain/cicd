@@ -1,0 +1,2 @@
+oktató git oldala:
+https://github.com/Training360/javax-ci-2022-06-27

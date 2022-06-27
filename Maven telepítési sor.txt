@@ -1,0 +1,1 @@
+letöltöd a zip állományt, és PATH-ba teszed

@@ -1,1 +1,0 @@
-Jacoco képes soronként lementeni az eredményt, és ezt képes a SONAR megjeleníteni

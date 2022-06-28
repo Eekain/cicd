@@ -48,3 +48,14 @@ docker exec -it employees-mariadb mysql
 Cloudban futtatható alkalmazások alapszabályai:
 [The Twelve-Factor App](12factor.net)
 
+Kellett beállítani a springhez dolgokat (liquibase)
+* set SPRING_DATASOURCE_URL=jdbc:mariadb://localhost/employees
+* set SPRING_DATASOURCE_USER=employees
+* set SPRING_DATASOURCE_PASSWORD=employees
+
+ezek után megfelelően elindul a Spring app a java -jar target\employees-1.0-SNAPSHOT.jar paranccsal
+
+Érdemes nem csak a konténtert, de még az alkalmazást is "layerekre bontani"
+
+Dockerben minden egyes copy parancs új "layert" hoz létre 
+

@@ -4,3 +4,17 @@ hozzáadtuk a pomhoz mint plugin, utána mvnw package:
 és ezután a \cicd\employees-2022-06-27\target\site\jacoco mappában az index.html egy lefedettségi megjelenítést mutat
 
 mavenben a unit tesztektől az integrációs teszteket tudjuk külön futtatni.
+
+ágazó stratégiák
+gitflow
+github flow
+gitlab flow
+Trunk-based development
+
+flagship.io/git-branching-strategies
+
+Axel Fontaine blogja
+
+elég gyakran a buildnek a vége már nem egy jar fájl, hanem docker image
+
+

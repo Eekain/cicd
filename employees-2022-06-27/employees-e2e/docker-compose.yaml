@@ -24,7 +24,7 @@ services:
     volumes:
     - ./wait:/opt/wait
     entrypoint: ["/opt/wait/wait-for-it.sh", "-t", "120", "employees-c-mariadb:3306", "--", "java", "-jar", "app.jar"]
-    scale: 8
+    scale: 2
 
   frontend:
     image: nginx

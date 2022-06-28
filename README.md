@@ -60,3 +60,32 @@ ezek után megfelelően elindul a Spring app a java -jar target\employees-1.0-SN
 Dockerben minden egyes copy parancs új "layert" hoz létre 
 
 Dockerfile-on belül lehet meghatározni cache képet, ami a függőségeket letölti, és akkor a build nem minden újrafutásnál szenved vele
+
+host.docker.internal 
+
+*így lehet a saját gépre kilátni*
+
+##Alkalmazás és adatbázis együttes futtatása
+docker network create employees-net
+
+docker run -d 
+-e MARIADB_DATABASE=eemployees 
+-e MARIADB_USER=employees
+-e MARIADB_PASSWORD=employees
+-e MARIADB_ALLOW_EMPTY_ROOT_PASSWORD=yes 
+-p 3307:3306 
+--name employees-app-mariadb 
+--network employees-net mariadb
+
+docker run -d 
+-e SPRING_DATASOURCE_URL=jdbc:mariadb://employees-app-mariadb/employees 
+-e SPRING_DATASOURCE_USERNAME=employees 
+-e SPRING_DATASOURCE_PASSWORD=employees 
+-p 8085:8080 
+--name employees-app 
+--network employees-net employees
+
+Docker compose: egy python script, ami képes a konténereket/konténeren belül futtatni, stb
+, ez benne van a docker desktop alkalmazásban: .yaml végződésűek
+
+ezeket a docker compose-zal lehet elindítani

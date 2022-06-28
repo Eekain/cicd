@@ -59,3 +59,4 @@ ezek után megfelelően elindul a Spring app a java -jar target\employees-1.0-SN
 
 Dockerben minden egyes copy parancs új "layert" hoz létre 
 
+Dockerfile-on belül lehet meghatározni cache képet, ami a függőségeket letölti, és akkor a build nem minden újrafutásnál szenved vele

@@ -1,4 +1,4 @@
-Képzési folyamat:
+# Képzési folyamat:
 
 1. Elméleti alapok: CI/CD
 2. Groovy és Gradle
@@ -25,3 +25,26 @@ Képzési folyamat:
 14. Deploy artifact to Nexus
 15. Deploy Docker image t Nexus
 16. Pull and run Docker image from Nexus
+
+## Második nap
+
+Integrációs tesztek valós adatbázisok:
+
+docker run
+ -d 
+ -e MARIADB_DATABASE=employees
+ -e MARIADB_USER=employees
+ -e MARIADB_PASSWORD=employees
+ -e MARIADB_ALLOW_EMPTY_ROOT_PASSWORD=yes
+ -p 3306:3306
+ --name employees-mariadb mariadb
+
+docker logs -f employees-mariadb
+
+Futtatás:
+
+docker exec -it employees-mariadb mysql 
+
+Cloudban futtatható alkalmazások alapszabályai:
+[The Twelve-Factor App](12factor.net)
+

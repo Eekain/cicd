@@ -1,0 +1,1 @@
+képet letörölni a docker rmi paranccsal lehet

@@ -89,3 +89,6 @@ Docker compose: egy python script, ami képes a konténereket/konténeren belül
 , ez benne van a docker desktop alkalmazásban: .yaml végződésűek
 
 ezeket a docker compose-zal lehet elindítani
+
+postmanoltunk
+newman usage

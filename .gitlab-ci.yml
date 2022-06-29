@@ -22,7 +22,10 @@ build-job:
    - echo $CI_PIPELINE_ID
    - echo 'kek'
    - ./mvnw package
-
+  artifacts:
+    paths:
+     - target/*.jar
+     
 integration-test-job:
   stage: integration-test
   script:

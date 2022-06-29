@@ -1,4 +1,4 @@
-apiVersion: apps/v 1
+apiVersion: apps/v1
 kind: Deployment
 metadata:
   labels:
@@ -6,16 +6,16 @@ metadata:
   name: employees-app
 spec:
   replicas: 1
-  selectopr:
+  selector:
     matchLabels:
       app: employees-app
-     template:
+  template:
     metadata:
       labels:
         app: employees-app
     spec:
       containers:
-      - image: employees-app:1.0.0-8
+      - image: employees-app:1.0.0-9
         name: employees-app
 ---
 apiVersion: v1

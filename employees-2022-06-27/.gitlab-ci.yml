@@ -1,0 +1,17 @@
+stages:
+ - build
+ - integration-test
+ # - e2e-test
+ # - deploy
+ # -deploy-tp-test
+
+build-job:
+  stage: build
+  script:
+   - echo 'Udv mester, az epitkezest epp kivegzem'
+
+integration-test-job:
+  stage: integration-test
+  script:
+    - echo 'Integracios tesztek kivegzese folyamatban'
+

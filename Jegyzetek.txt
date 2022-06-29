@@ -1,1 +1,3 @@
 képet letörölni a docker rmi paranccsal lehet
+
+foglalkoztunk a harmadik napon még a gitlab cache előáállítással

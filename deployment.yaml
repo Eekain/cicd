@@ -1,0 +1,13 @@
+apiVersion: apps/v 1
+kind: Deployment
+metadata:
+  labels:
+    app: employees-app
+  name: employees-app
+spec:
+  replicas: 1
+  selectopr:
+    matchLabels:
+      app: employees-app
+    spec: 
+...

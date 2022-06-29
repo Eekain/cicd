@@ -16,6 +16,9 @@ build-job:
   image: openjdk:17
   script:
    - echo 'Udv mester, az epitkezest epp kivegzem'
+   - echo $SONAR_TOKEN
+   - echo $CI__COMMIT_SHORT_SHA
+   - echo $CI_PIPELINE_ID
    - ./mvnw package
 
 integration-test-job:

@@ -25,7 +25,7 @@ build-job:
   artifacts:
     paths:
      - target/*.jar
-     
+
 integration-test-job:
   stage: integration-test
   script:
@@ -35,4 +35,4 @@ build-image-job:
   stage: build-image
   image: docker:20.10.11
   script:
-  - docker build -t employees-app:1.0.0-$CI_PIPELINE_ID
+  - docker build -t employees-app:1.0.0-$CI_PIPELINE_ID .

@@ -91,4 +91,15 @@ Docker compose: egy python script, ami képes a konténereket/konténeren belül
 ezeket a docker compose-zal lehet elindítani
 
 postmanoltunk
+
 newman usage
+
+## Sonarqube
+hibafelmérő 
+
+ha átadod neki a becsomagoolt vagy ellenőrzött kódot, ad egy szép elemzést, részletbe menően
+
+tokent generál, és vagy hozzáad a pomhoz, vagy build során a cmd vonalon kell megadni
+
+## Nexus
+Sonatype alatt készül: 

@@ -42,15 +42,6 @@ public class EmployeesController {
         return employeesService.findEmployeeById(id);
     }
 
-//    @GetMapping("/{id}")
-//    public ResponseEntity findEmployeeById(@PathVariable("id") long id) {
-//        try {
-//            return ResponseEntity.ok(employeesService.findEmployeeById(id));
-//        }
-//        catch (IllegalArgumentException iea) {
-//            return ResponseEntity.notFound().build();
-//        }
-//    }
 
     @PostMapping
     @ResponseStatus(HttpStatus.CREATED)

@@ -30,7 +30,7 @@ public class EmployeesService {
     }
 
     public EmployeeDto createEmployee(CreateEmployeeCommand command) {
-        Employee employee = new Employee(command.getName());
+        var employee = new Employee(command.getName());
         repository.save(employee);
         log.info("Employee has been created");
         log.debug("Employee has been created with name {}", command.getName());
@@ -39,7 +39,7 @@ public class EmployeesService {
 
     @Transactional
     public EmployeeDto updateEmployee(long id, UpdateEmployeeCommand command) {
-        Employee employee = repository.findById(id).orElseThrow(() -> new IllegalArgumentException("employee not found"));
+        var employee = repository.findById(id).orElseThrow(() -> new IllegalArgumentException("employee not found"));
         employee.setName(command.getName());
         return employeeMapper.map(employee);
     }

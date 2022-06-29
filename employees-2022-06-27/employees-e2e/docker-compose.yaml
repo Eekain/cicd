@@ -7,7 +7,7 @@ services:
       - 3306
     environment:
       MARIADB_DATABASE: employees
-      MARIADB_ALLOW_EMPTY_ROOT_PASSWORD: 'yes' # aposztrófok nélkül boolean true-ként értelmezi
+      MARIADB_ALLOW_EMPTY_ROOT_PASSWORD: 'yes' 
       MARIADB_USER: employees
       MARIADB_PASSWORD: employees
 

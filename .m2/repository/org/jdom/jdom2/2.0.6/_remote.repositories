@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Wed Jun 29 11:01:19 CEST 2022
+jdom2-2.0.6.jar>nexus=
+jdom2-2.0.6.jar>central=
+jdom2-2.0.6.pom>central=
+jdom2-2.0.6.pom>nexus=

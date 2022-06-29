@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Wed Jun 29 11:00:58 CEST 2022
+log4j-api-2.14.1.pom>nexus=
+log4j-api-2.14.1.jar>central=
+log4j-api-2.14.1.jar>nexus=
+log4j-api-2.14.1.pom>central=

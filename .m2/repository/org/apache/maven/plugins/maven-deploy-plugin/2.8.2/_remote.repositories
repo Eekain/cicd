@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Wed Jun 29 11:17:25 CEST 2022
+maven-deploy-plugin-2.8.2.jar>nexus=
+maven-deploy-plugin-2.8.2.pom>nexus=
+maven-deploy-plugin-2.8.2.jar>central=
+maven-deploy-plugin-2.8.2.pom>central=

@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Wed Jun 29 11:01:19 CEST 2022
+asm-tree-8.0.jar>central=
+asm-tree-8.0.jar>nexus=
+asm-tree-8.0.pom>central=
+asm-tree-8.0.pom>nexus=

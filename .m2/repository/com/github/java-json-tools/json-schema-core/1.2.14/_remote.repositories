@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Wed Jun 29 11:00:58 CEST 2022
+json-schema-core-1.2.14.jar>central=
+json-schema-core-1.2.14.pom>nexus=
+json-schema-core-1.2.14.jar>nexus=
+json-schema-core-1.2.14.pom>central=

@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Wed Jun 29 11:01:09 CEST 2022
+maven-plugin-descriptor-2.2.1.jar>central=
+maven-plugin-descriptor-2.2.1.pom>central=
+maven-plugin-descriptor-2.2.1.pom>nexus=
+maven-plugin-descriptor-2.2.1.jar>nexus=

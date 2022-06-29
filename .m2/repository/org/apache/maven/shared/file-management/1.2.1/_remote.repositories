@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Wed Jun 29 11:01:03 CEST 2022
+file-management-1.2.1.jar>central=
+file-management-1.2.1.jar>nexus=
+file-management-1.2.1.pom>nexus=
+file-management-1.2.1.pom>central=

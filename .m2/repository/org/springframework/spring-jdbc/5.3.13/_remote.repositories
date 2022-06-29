@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Wed Jun 29 11:00:58 CEST 2022
+spring-jdbc-5.3.13.jar>central=
+spring-jdbc-5.3.13.pom>central=
+spring-jdbc-5.3.13.pom>nexus=
+spring-jdbc-5.3.13.jar>nexus=

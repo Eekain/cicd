@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Wed Jun 29 11:00:58 CEST 2022
+classgraph-4.8.69.jar>central=
+classgraph-4.8.69.pom>central=
+classgraph-4.8.69.pom>nexus=
+classgraph-4.8.69.jar>nexus=

@@ -102,4 +102,18 @@ ha átadod neki a becsomagoolt vagy ellenőrzött kódot, ad egy szép elemzést
 tokent generál, és vagy hozzáad a pomhoz, vagy build során a cmd vonalon kell megadni
 
 ## Nexus
-Sonatype alatt készül: 
+Sonatype alatt készül.
+
+docker run --name nexus --detach 
+--publish 8091:8081
+--publish 8092:8082
+sonatype/nexus3
+
+szép kis nexusos 
+
+## Gitlab
+
+*the ONE devOps platform*
+
+git hosting platform, lehet központi, vagy lokál szerveren tenni
+

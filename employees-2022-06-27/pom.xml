@@ -25,6 +25,12 @@
 		<sonar.login></sonar.login>
 	</properties>
 
+	<distributionManagement> <snapshotRepository>
+			<id>nexus-snapshots</id>
+			<url>http://localhost:8091/repository/maven-snapshots/</url>
+		</snapshotRepository>
+	</distributionManagement>
+
     <dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
